@@ -1,0 +1,6 @@
+1. 创建一个conda虚拟环境, 使用python3.6的版本(3.7可能也行，再高的版本会有一些错误)
+  conda create -n jitsdp_py36 python=3.6
+2. 按照如下顺序安装所需要的包
+  conda install matplotlib
+  conda install scikit-learn
+  conda install scikit-multiflow(或者使用pip install scikit-multiflow)
